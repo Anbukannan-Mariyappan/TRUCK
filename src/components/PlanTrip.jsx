@@ -1,4 +1,4 @@
-import SelectCar from "../images/plan/icon1.png";
+import SelectTruck from "../images/plan/icon1.png";
 import Contact from "../images/plan/icon2.png";
 import Drive from "../images/plan/icon3.png";
 
@@ -10,16 +10,16 @@ function PlanTrip() {
           <div className="plan-container">
             <div className="plan-container__title">
               <h3>Plan your trip now</h3>
-              <h2>Quick & easy car rental</h2>
+              <h2>Quick & easy  rental</h2>
             </div>
 
             <div className="plan-container__boxes">
               <div className="plan-container__boxes__box">
-                <img src={SelectCar} alt="icon_img" />
-                <h3>Select Car</h3>
+                <img src={SelectTruck} alt="icon_img" />
+                <h3>Select Truck</h3>
                 <p>
                   We offers a big range of vehicles for all your driving needs.
-                  We have the perfect car to meet your needs
+                  We have the perfect truck to meet your needs
                 </p>
               </div>
 
@@ -37,7 +37,7 @@ function PlanTrip() {
                 <h3>Let's Drive</h3>
                 <p>
                   Whether you're hitting the open road, we've got you covered
-                  with our wide range of cars
+                  with our wide range of truck
                 </p>
               </div>
             </div>
