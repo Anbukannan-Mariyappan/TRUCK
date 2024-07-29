@@ -14,8 +14,8 @@ function Home() {
     <>
       <Tata />
       <BookTruck />
-      <PlanTrip />
       <PickTruck />
+      <PlanTrip />  
       <Banner />
       <ChooseUs />
       <Testimonials />

@@ -1,9 +1,9 @@
 import { useState } from "react";
-import CarBox from "./TruckBox";
+import TruckBox from "./TruckBox";
 import { TRUCK_DATA } from "./TruckData";
 
 function PickCar() {
-  const [active, setActive] = useState("SecondCar");
+  const [active, setActive] = useState("SecondTruck");
   const [colorBtn, setColorBtn] = useState("btn1");
 
   const btnID = (id) => {
@@ -23,9 +23,7 @@ function PickCar() {
               <h3>Vehicle Models</h3>
               <h2>Our rental fleet</h2>
               <p>
-                Choose from a variety of our amazing vehicles to rent for your
-                next adventure or business trip
-              </p>
+                Choose from a variety of our amazing vehicles to rent for your next delivery</p>
             </div>
             <div className="pick-container__car-content">
               {/* Pick Truck */}
@@ -33,7 +31,7 @@ function PickCar() {
                 <button
                   className={`${coloringButton("btn1")}`}
                   onClick={() => {
-                    setActive("SecondCar");
+                    setActive("SecondTruck");
                     btnID("btn1");
                   }}
                 >
@@ -43,7 +41,7 @@ function PickCar() {
                   className={`${coloringButton("btn2")}`}
                   id="btn2"
                   onClick={() => {
-                    setActive("FirstCar");
+                    setActive("FirstTruck");
                     btnID("btn2");
                   }}
                 >
@@ -53,7 +51,7 @@ function PickCar() {
                   className={`${coloringButton("btn3")}`}
                   id="btn3"
                   onClick={() => {
-                    setActive("ThirdCar");
+                    setActive("ThirdTruck");
                     btnID("btn3");
                   }}
                 >
@@ -63,7 +61,7 @@ function PickCar() {
                   className={`${coloringButton("btn4")}`}
                   id="btn4"
                   onClick={() => {
-                    setActive("FourthCar");
+                    setActive("FourthTruck");
                     btnID("btn4");
                   }}
                 >
@@ -73,17 +71,17 @@ function PickCar() {
                   className={`${coloringButton("btn5")}`}
                   id="btn5"
                   onClick={() => {
-                    setActive("FifthCar");
+                    setActive("FifthTruck");
                     btnID("btn5");
                   }}
                 >
-                 Ashok AVTR 1920-4x2 Haulage
+                 Ashok AVTR  Haulage
                 </button>
                 <button
                   className={`${coloringButton("btn6")}`}
                   id="btn6"
                   onClick={() => {
-                    setActive("SixthCar");
+                    setActive("SixthTruck");
                     btnID("btn6");
                   }}
                 >
@@ -91,12 +89,12 @@ function PickCar() {
                 </button>
               </div>
 
-              {active === "FirstCar" && <CarBox data={TRUCK_DATA} carID={0} />}
-              {active === "SecondCar" && <CarBox data={TRUCK_DATA} carID={1} />}
-              {active === "ThirdCar" && <CarBox data={TRUCK_DATA} carID={2} />}
-              {active === "FourthCar" && <CarBox data={TRUCK_DATA} carID={3} />}
-              {active === "FifthCar" && <CarBox data={TRUCK_DATA} carID={4} />}
-              {active === "SixthCar" && <CarBox data={TRUCK_DATA} carID={5} />}
+              {active === "FirstTruck" && <TruckBox data={TRUCK_DATA} carID={0} />}
+              {active === "SecondTruck" && <TruckBox data={TRUCK_DATA} carID={1} />}
+              {active === "ThirdTruck" && <TruckBox data={TRUCK_DATA} carID={2} />}
+              {active === "FourthTruck" && <TruckBox data={TRUCK_DATA} carID={3} />}
+              {active === "FifthTruck" && <TruckBox data={TRUCK_DATA} carID={4} />}
+              {active === "SixthTruck" && <TruckBox data={TRUCK_DATA} carID={5} />}
             </div>
           </div>
         </div>

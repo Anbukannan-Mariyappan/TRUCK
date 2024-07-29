@@ -43,8 +43,8 @@ function TruckBox({ data, carID }) {
               </div>
 
               <div className="pick-description__table__col">
-                <span>AC</span>
-                <span>{car.air}</span>
+                <span>Payload</span>
+                <span>{car.payload}</span>
               </div>
 
               <div className="pick-description__table__col">

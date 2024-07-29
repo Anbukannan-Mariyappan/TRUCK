@@ -334,7 +334,7 @@ function BookTruck() {
           </div>
           <div className="booking-modal__car-info__model">
             <h5>
-              <span>Car -</span> {truckType}
+              <span>Truck -</span> {truckType}
             </h5>
             {imgUrl && <img src={imgUrl} alt="car_img" />}
           </div>

@@ -1,11 +1,12 @@
 import Footer from "../components/Footer";
+
 import TataPages from "../components/TataPages";
-import CarImg1 from "../images/truck-big/audi-box.png";
-import CarImg2 from "../images/truck-big/golf6-box.png";
-import CarImg3 from "../images/truck-big/toyota-box.png";
-import CarImg4 from "../images/truck-big/bmw-box.png";
-import CarImg5 from "../images/truck-big/benz-box.png";
-import CarImg6 from "../images/truck-big/passat-box.png";
+import TrukImg1 from "../images/truck-big/audi-box.png";
+import TrukImg2 from "../images/truck-big/golf6-box.png";
+import TrukImg3 from "../images/truck-big/toyota-box.png";
+import TrukImg4 from "../images/truck-big/bmw-box.png";
+import TrukImg5 from "../images/truck-big/benz-box.png";
+import TrukImg6 from "../images/truck-big/passat-box.png";
 import { Link } from "react-router-dom";
 
 function Models() {
@@ -17,7 +18,7 @@ function Models() {
           <div className="models-div">
             <div className="models-div__box">
               <div className="models-div__box__img">
-                <img src={CarImg1} alt="car_img" />
+                <img src={TrukImg1} alt="truck_img" />
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
@@ -37,16 +38,22 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Tata Ace 
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Tata Ace
                     </span>
                     <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Manual
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Payload
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
+                      710 Kgs &nbsp; <i className="fa-solid fa-car-side"></i>
+                    </span>
+                    <span>
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Fuel
+                    </span>
+                    <span style={{ textAlign: "right" }}>
+                      Petrol &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
@@ -60,7 +67,7 @@ function Models() {
 
             <div className="models-div__box">
               <div className="models-div__box__img">
-                <img src={CarImg2} alt="car_img" />
+                <img src={TrukImg2} alt="truck_img" />
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
@@ -86,10 +93,16 @@ function Models() {
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Manual
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Payload
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
+                      600 kg &nbsp; <i className="fa-solid fa-car-side"></i>
+                    </span>
+                    <span>
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Electrical
+                    </span>
+                    <span style={{ textAlign: "right" }}>
+                      Battary  &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
@@ -103,7 +116,7 @@ function Models() {
 
             <div className="models-div__box">
               <div className="models-div__box__img">
-                <img src={CarImg3} alt="car_img" />
+                <img src={TrukImg3} alt="truck_img" />
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
@@ -129,7 +142,13 @@ function Models() {
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Manual
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Payload
+                    </span>
+                    <span style={{ textAlign: "right" }}>
+                      2.25 tons &nbsp; <i className="fa-solid fa-car-side"></i>
+                    </span>
+                    <span>
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Fuel
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
@@ -146,7 +165,7 @@ function Models() {
 
             <div className="models-div__box">
               <div className="models-div__box__img">
-                <img src={CarImg4} alt="car_img" />
+                <img src={TrukImg4} alt="truck_img" />
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
@@ -172,7 +191,13 @@ function Models() {
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Manual
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Payload
+                    </span>
+                    <span style={{ textAlign: "right" }}>
+                      6.5 tons &nbsp; <i className="fa-solid fa-car-side"></i>
+                    </span>
+                    <span>
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Fuel
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
@@ -189,7 +214,7 @@ function Models() {
 
             <div className="models-div__box">
               <div className="models-div__box__img">
-                <img src={CarImg5} alt="car_img" />
+                <img src={TrukImg5} alt="truck_img" />
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
@@ -215,7 +240,13 @@ function Models() {
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Manual
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Payload
+                    </span>
+                    <span style={{ textAlign: "right" }}>
+                      10.5 tons &nbsp; <i className="fa-solid fa-car-side"></i>
+                    </span>
+                    <span>
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Fuel
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
@@ -232,7 +263,7 @@ function Models() {
 
             <div className="models-div__box">
               <div className="models-div__box__img">
-                <img src={CarImg6} alt="car_img" />
+                <img src={TrukImg6} alt="truck_img" />
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
@@ -258,7 +289,13 @@ function Models() {
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Manual
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Payload
+                    </span>
+                    <span style={{ textAlign: "right" }}>
+                      10.8 tons &nbsp; <i className="fa-solid fa-car-side"></i>
+                    </span>
+                    <span>
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Fuel
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
@@ -278,7 +315,7 @@ function Models() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Find All Truck Brands</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
                 <h3>(123) 456-7869</h3>

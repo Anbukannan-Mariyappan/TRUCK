@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import TataPages from "../components/TataPages";
+
 import PlanTrip from "../components/PlanTrip";
 import Box1 from "../images/about/icon1.png";
 import Box2 from "../images/about/icon2.png";
@@ -10,6 +11,7 @@ function About() {
     <>
       <section className="about-page">
         <TataPages name="About" />
+       
         <div className="container"> 
             <div className="about-main__text">
               <h3>About Company</h3>
@@ -36,7 +38,7 @@ function About() {
                   <img src={Box1} alt="car-icon" />
                   <span>
                     <h4>20</h4>
-                    <p>Car Types</p>
+                    <p>Truck Types</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
